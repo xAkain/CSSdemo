@@ -1,0 +1,14 @@
+div{
+    display: inline-block;
+    background-color:red ;
+    height: 100px;
+    width: 100px;
+    margin: 25px;
+    padding: 25px;
+}
+#a2{
+    display: none;
+}
+#a3{
+    background-color: rgba(255, 0, 0, 0.5);
+}

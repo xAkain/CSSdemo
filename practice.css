@@ -43,3 +43,17 @@ a {
     margin-right: 200px;
     text-decoration: none;
 }
+.contentbox{
+    height: 210px;
+    width: 1517.5px;
+    border: 2px solid black;
+    display: inline-block; 
+}
+#content{
+    height: 640px;
+}
+footer{
+    text-align: center;
+    background-color: black;
+    color: white;
+}
