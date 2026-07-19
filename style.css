@@ -3,6 +3,7 @@
 }
 h1{
     color: red;
+    text-align: center;
 }
 p{
     color: blue;
@@ -22,9 +23,24 @@ h2{
 }
 .heading3 {
     color:rgb(255, 0, 255);
+    text-align: center;
+    text-decoration: green wavy underline;
+    font-weight: 900;
 }
 #box{
     background-color: blueviolet;
     color: aquamarine;
+    text-align: left;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    line-height: 40px;
+    text-transform: capitalize;
 }
-<!-- color palette and coolor website for color inspiration -->
+a{
+    text-decoration: none;
+    color:black;
+    background-color: blanchedalmond;
+}
+
+/* mdn website to learn about css and html and javascript and other web development languages*/
+/* color palette and coolor website for color inspiration*/
