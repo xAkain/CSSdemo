@@ -1,5 +1,7 @@
 *{
     font-family: 'Times New Roman', Times, serif;
+    padding: 0px;
+    margin: 0px;
 }
 
 h1{
@@ -13,4 +15,31 @@ h1{
 #outer {
     font-size: 25px;
 
+}
+#green{
+    width: 100px;
+    height:100px;
+    background-color: green;
+    border-radius: 50%;    
+}
+#navbar {
+    background-color: black;
+    height: 60px;
+}
+
+#navbar a {
+    color: white;
+    text-decoration: none;
+}
+
+#Logo {
+    color: green !important;
+    font-size: 25px;
+}
+#search{
+    background-color: #f08804;
+}
+a {
+    margin-right: 200px;
+    text-decoration: none;
 }
