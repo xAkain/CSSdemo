@@ -1,9 +1,16 @@
+*{
+    background-color: black;
+}
+h1{
+    text-align: center;
+}
+
 div{
     display: inline-block;
     background-color:red ;
-    height: 100px;
-    width: 100px;
-    margin: 25px;
+    height: 500px;
+    width: 500px;
+    margin: 50px;
     padding: 25px;
 }
 #a2{
@@ -11,4 +18,18 @@ div{
 }
 #a3{
     background-color: rgba(255, 0, 0, 0.5);
+    background-image: url(james.jpg);
+    background-size: cover;
+}
+#a4{
+    background-image: url(Kitae.jpg);
+    background-size: cover;
+}
+#a1{
+    background-image: url(goo.jpg);
+    background-size: cover;
+}
+#a5{
+    background-image: url(gun.jpg);
+    background-size: cover;
 }
