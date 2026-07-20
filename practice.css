@@ -2,6 +2,7 @@
     font-family: 'Times New Roman', Times, serif;
     padding: 0px;
     margin: 0px;
+    text-align: center;
 }
 
 h1{
@@ -19,8 +20,10 @@ h1{
 #green{
     width: 100px;
     height:100px;
+    
     background-color: green;
-    border-radius: 50%;    
+    border-radius: 50%;  
+    margin: 0 auto;  
 }
 #navbar {
     background-color: black;
@@ -56,4 +59,20 @@ footer{
     text-align: center;
     background-color: black;
     color: white;
+}
+#outer2{
+    height: 400px;
+    width: 400px;
+    background-color: red;
+    display: flex;
+    justify-content:center ;
+    align-items: center;
+    margin: 0 auto;
+    
+}
+#inner2{
+    height: 50%;
+    width: 50%;
+    background-color: yellow;
+    margin: 0 auto;
 }

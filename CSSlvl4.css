@@ -1,0 +1,56 @@
+body{
+    text-align: center;
+}
+div{
+    height: 100px;
+    width: 100px;
+    display:inline-block ;
+    border:2px solid black ;
+}
+
+#container{
+    width:800px ;
+    height:200px ;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+    align-content: flex-end;
+}
+#box1{
+    background-color: aqua;
+    flex-shrink: 2;
+}
+#box2{
+    background-color: pink;
+
+}
+#box3{
+    background-color: green;
+}
+#box4{
+    background-color: yellow;
+}
+#box5{
+    background-color: red;
+}
+#navbar{
+    height: 50px;
+    width: 100vmax;
+    background-color: blanchedalmond;
+    display: flex;
+    justify-content:space-evenly;
+    
+}
+
+li{
+    display: inline;
+    list-style-type: none;
+}
+a{
+    
+    text-decoration: none;
+    background-color:bisque ;
+    color: black;
+}
