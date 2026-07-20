@@ -3,6 +3,7 @@
     padding: 0px;
     margin: 0px;
     text-align: center;
+    
 }
 
 h1{
@@ -75,4 +76,18 @@ footer{
     width: 50%;
     background-color: yellow;
     margin: 0 auto;
+}
+#loader{
+    height: 100px;
+    width: 100px;
+    background-color: blue;
+    border-radius: 50%;
+    border: 10px solid ghostwhite;
+    border-top: 10px solid black;
+    margin: 0 auto;
+    animation: rotate 3s ease-in 0ms infinite normal ;
+}
+@keyframes rotate {
+ from{transform:rotate(0deg);}
+ to{transform: rotate(360deg);}     
 }
